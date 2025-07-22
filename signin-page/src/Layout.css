@@ -1,0 +1,25 @@
+.dashboard-layout {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #f3e8ff, #e9d5ff);
+}
+
+.main-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.topbar {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+}
+
+.main-content {
+  padding: 2rem;
+}
